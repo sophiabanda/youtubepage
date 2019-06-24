@@ -1,0 +1,35 @@
+.maincontent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 14px;
+  margin-left: 19em;
+  margin-right: 19em;
+}
+.bottom-left-grid {
+  display: grid;
+  grid-gap: 14px;
+}
+.bottom-right-grid {
+  display: grid;
+  grid-template-columns: 
+  grid-template-rows:
+}
+.thumbs {
+  display: grid;
+  background-color: #232324;
+  width: 26px;
+  height: auto;
+}
+#posterimage {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.navtwoleft {
+  margin-right: auto;
+  font-size: 15px
+}
+.navtworight {
+  margin-right: auto;
+  font-size: 10px;
+}

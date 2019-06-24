@@ -1,0 +1,48 @@
+.flex-grid {
+  display: flex;
+}
+.container {
+  display: grid;
+}
+.video {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+#yak {
+  width: 935px;
+  height: 622px;
+}
+.title {
+  padding-top: 15px;
+  font-size: 23px;
+}
+.post-info {
+  display: flex;
+}
+.subvideos {
+  display: flex;
+  color: darkgray;
+}
+.flex-container {
+  display: flex;
+}
+.user-comments {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.bottom-block {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  align-items: stretch;
+  color: darkgrey;
+}
+.bottom-right-grid {
+  display: grid;
+}
+.comments {
+  font-size: 28px;
+}

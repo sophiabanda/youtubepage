@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="youtubepage.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="maincontent.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>SophiaTube</title>
+  </head>
+  <body>
+    <!--NAV BAR-->
+    <nav>
+      <ul class="left">
+          <li>YouTube</li>
+          <li> <img id="bell" src="icon-bell.jpeg"></li>
+          <li> <img id="rednote" src="rednotification.png"></li>
+      </ul>
+      <input class="search" type="text" placeholder="Search.." />
+      <ul class="right">
+            <li><div class="userimage"></div></li>
+            <img class="shottie" src="shottie.jpg" alt="Shottie" /></div>
+            <li> <img id="gear" src="cog.svg"></li>
+        <button class="upload" type="submit">UPLOAD</button>
+      </ul>
+    </nav>
+    <!---VIDEO--->
+    <div class="video">
+        <iframe id="yak"
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/G5IquV7zWqY" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+    <!---MAIN CONTENT-->
+    <div class="maincontent">
+      <!---RIGHT SIDE BAR VIDEOS-->
+      <!---USER IMAGE, NAME, SUBSCRIBE BUTTON-->
+      <div class="bottom-left-grid">
+        <!---VIDEO TITLE-->
+        <div class="title">
+          PACMAN (I.aM.mE) & GLITCH (Dragon House) | YAK FILMS
+        </div>
+        <div class="post-info">  
+            <div><img id="posterimage" src="profilepic.jpg" alt="SophiaHolidayParty"></div>
+            <div class="username">Sophia Banda</div>
+            <button class="button" type="submit">SUBSCRIBE</button>
+            <div class="subvideos">64,436 SUBSCRIBERS</div>
+            <div class="subvideos">7,476 VIDEOS</div>
+        </div>
+      <!---ABOUT, DESCRP-->
+        <nav class="navtwo">
+          <ul class="navtwoleft">
+            <li>ABOUT</li>
+            <li>SHARE</li>
+            <li>ADD TO</li>
+            </ul>
+            <ul class="navtworight">
+            <li>flagicon</li>
+            <li>eqzicon</li>
+            </ul>
+        </nav>
+        <div class="descrip"></div>
+      <!---COMMENTS-->
+        <div class="comments">Comments</div>
+          <div class="commentlist">
+            <div class="comment1">
+              <img class="shottie" src="shottie.jpg" alt="Shottie">
+              <div>User Name</div>          
+              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+            <div class="comment2">
+              <img class="shottie" src="shottie.jpg" alt="Shottie">
+              <div>User Name</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+            <div class="comment3">
+              <img class="shottie" src="shottie.jpg" alt="Shottie">
+                <div>User Name</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+          </div>
+      </div>
+      <div class="bottom-right-grid">
+          <img class="thumbs" src="thumbsup.png" alt="thumbsup">
+          <img class="thumbs" src="thumbsdown.png" alt="thumbsdown">
+          <div class="likesbox"></div>
+          <div class="nina">
+            <iframe
+            width="153"
+            height="121"
+            src="https://www.youtube.com/embed/3MkljYnt_p0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
+            <div>Nina Simone "Be my husband", live à Antibes 1965
+                74,693 views</div>  
+          <div class="shottievid">
+            <iframe 
+            width="153" 
+            height="121" 
+            src="https://www.youtube.com/embed/hrBC_lQXEMo" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <div>Shottie - Cyanide Filet [Short Film/Music Video]
+                4,742 views
+            </div>
+          </div>
+          <div class="lulu">
+              <iframe 
+              width="153" 
+              height="121" 
+              src="https://www.youtube.com/embed/_sfzEcCx874" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+              <div>lululemon | Sweatlife Festival 2018
+                  Unlisted
+                 2,696 views
+              </div>
+            </div>
+            <div class="strong">
+                <iframe 
+                width="153" 
+                height="121" 
+                src="https://www.youtube.com/embed/oVW0tbd0zAI" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+                <div>Improve your Kettlebell Swing: Hip Hinge Tip
+                    37,141 views
+                </div>
+              </div>
+      </div>
+    </div>
+  </body>
+</html>
